@@ -7,9 +7,9 @@
 // Returns:
 //     return amswer;
 int func(number) {
-  return number % 10;
+  return number ~/ 10;
 }
 
 void main() {
-  print(func(78));
+  print(func(76));
 }
