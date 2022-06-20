@@ -8,7 +8,7 @@
   Returns:
       ret*/
 int func(int number) {
-  return number ~/ 10;
+  return number % 10;
 }
 
 void main() {
