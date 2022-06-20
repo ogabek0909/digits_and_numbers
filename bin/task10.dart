@@ -8,4 +8,14 @@
   Returns:
       return answer
   */
-void main() {}
+int func(number) {
+  int x = number ~/ 1000;
+  int y = number % 1000 ~/ 100;
+  int g = number % 1000 % 100 ~/ 10;
+  int f = number % 1000 % 100 % 10;
+  return x * y * g * f;
+}
+
+void main() {
+  print(func(7893));
+}
