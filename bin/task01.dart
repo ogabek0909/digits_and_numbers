@@ -6,6 +6,6 @@
   Args:
       number
   Returns:
-      return answer
-  */
-void main() {}
+      ret
+      
+void main() 
