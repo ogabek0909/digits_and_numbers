@@ -7,7 +7,7 @@
       number
   Returns:
       ret*/
-int func(number) {
+int func(int number) {
   return number ~/ 10;
 }
 
