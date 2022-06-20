@@ -11,5 +11,5 @@ int func(number) {
 }
 
 void main() {
-  print(func(45));
+  print(func(78));
 }
